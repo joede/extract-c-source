@@ -1,0 +1,21 @@
+\documentclass[12pt]{article}
+
+
+\title{Sample Protocol Specification}
+
+\begin{document}
+
+
+\sections{Commands}
+
+%% C-define# TEST 123
+%% C-define# FOO  "123"
+%% C-define# MAX_PACKET_DATA 10
+%% C-struct# FOOTYPE { uint8_t cmd; }
+%% C-struct# PKT_FOO { uint8_t cmd; uint16_t parm; }
+%%
+\subsection{Command "Foo"}
+
+Some more text here...
+
+\end{document}
