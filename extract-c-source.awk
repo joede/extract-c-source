@@ -2,14 +2,14 @@
 #  Copyright (c) Joerg Desch <github@jdesch.de>
 #  -----------------------------------------------------------------------
 #  PROJECT.: Header Extractor
-#  REVISION: 0.2
+#  REVISION: 0.3
 #  LICENSE:  LGPL 2.1
 #  -----------------------------------------------------------------------
 #
 #  This script extract all data types and constants defined in a ASCII
 #  specification (like LaTeX or Markdown). The result is a C include file, which
 #  must be included in the project source. Going this way ensures, that the
-#  header always conforma to the protocol specs!
+#  header always conforms to the protocol specs!
 #
 #  USAGE:
 #
@@ -143,8 +143,8 @@ END{
       }
       printf "} T_PACKET_DATA;\n";
     }
-    print "\n#endif";
   }
+  print "\n#endif";
   print "/* =====[end of generated file]===== */\n";
   exit 0;
 }
